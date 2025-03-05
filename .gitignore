@@ -1,0 +1,35 @@
+# 🚀 Node.js dependencies
+node_modules/
+dist/
+coverage/
+
+# 🛠 Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+
+# ⚡ Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 🔥 Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📌 NestJS build files
+*.tsbuildinfo
+.cache/
+.out/
+
+# 🚀 Docker
+docker-compose.override.yml
